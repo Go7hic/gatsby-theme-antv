@@ -1,5 +1,5 @@
 {
-  "name": "@dyy/gatsby-theme-antv",
+  "name": "gatsby-theme-antv-patch",
   "description": "Ant Visualization solution home page",
   "version": "1.1.19",
   "author": "AntV Team <antv@antfin.com>",
