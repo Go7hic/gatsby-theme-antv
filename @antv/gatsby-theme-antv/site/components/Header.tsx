@@ -560,7 +560,8 @@ const Header: React.FC<HeaderProps> = ({
       <div className={styles.container}>
         <div className={styles.left}>
           <h1>
-            <a href={logoLink}>{img}</a>
+            {/* <a href={logoLink}>{img}</a> */}
+            {img}
           </h1>
           {subTitle && (
             <>

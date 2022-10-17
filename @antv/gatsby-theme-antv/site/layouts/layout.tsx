@@ -50,6 +50,11 @@ const Layout: React.FC<LayoutProps> = ({ children, location, footerProps }) => {
         siteMetadata {
           title
           githubUrl
+          logo {
+            img
+            link
+          }
+          subTitleHref
           siteUrl
           logoUrl
           showSearch
@@ -122,6 +127,7 @@ const Layout: React.FC<LayoutProps> = ({ children, location, footerProps }) => {
       versions,
       ecosystems,
       announcement,
+      subTitleHref
     },
   } = site;
 
@@ -223,6 +229,7 @@ const Layout: React.FC<LayoutProps> = ({ children, location, footerProps }) => {
         navs={navs}
         siteUrl={siteUrl}
         githubUrl={githubUrl}
+        subTitleHref={subTitleHref}
         Link={Link}
         transparent={isHomePage}
         isHomePage={isHomePage}
